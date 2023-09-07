@@ -1,0 +1,22 @@
+body{
+    background-color: #b1a7ab;
+}
+.calculator {
+    width: 350px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #020202;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #616161;
+  }
+  .button-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    margin-bottom: 10px;
+  }
